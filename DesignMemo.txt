@@ -1,0 +1,11 @@
+Why is a stack the right choice for undo/redo? A stack is the best choice for undoing and redoing beacause it uses the Last-in, First-out order 
+which is useful when working backwards, hence why it's being used for undo/redo. Some ways it can be utilized include when math expressions are being
+evaluated, where nested opeartions happen backwards, or when fucntion calls are being stored in a program where the last one that is started will finish first.
+
+Why is a queue better suited for the help desk? A queue makes more sense for the help desk since it follows the order of First-in First-out. Kind of like a real waiting line
+it runs on a first come first serve basis which is not only more fair, but it makes sure nobody is skipped.
+
+How do your implementations differ from Python’s built-in lists? My implementations differ from Python's built-in lists in that they are linked nodes which are faster and
+overall more efficient than Python lists.
+
+Be sure to review Resource #3: When to Use a Stack or a Queue to help in answering these questions! 
